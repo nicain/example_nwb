@@ -1,0 +1,2 @@
+make docker
+make run
