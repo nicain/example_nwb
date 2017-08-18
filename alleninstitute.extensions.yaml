@@ -1,0 +1,18 @@
+groups:
+- attributes:
+  - doc: no help for you
+    dtype: str
+    name: help
+  datasets:
+  - doc: dataset_doc
+    dtype:
+    - dtype: str
+      label: stimulus
+    - dtype: int
+      label: start
+    - dtype: int
+      label: end
+    name: stimulus_epoch_table
+  doc: Stimulus epoch table
+  neurodata_type_def: Table
+  neurodata_type_inc: NWBContainer
