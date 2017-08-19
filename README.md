@@ -1,3 +1,3 @@
-make docker
+make docker 
 
 make run
