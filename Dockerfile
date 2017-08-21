@@ -22,7 +22,7 @@ WORKDIR /pynwb
 RUN git checkout feature/table_writer_dataset23
 
 RUN pip install -r 'requirements.txt'
-RUN conda install -y pandas matplotlib numpy scipy PIL statsmodels scikit-image
+RUN conda install -y pandas matplotlib numpy scipy PIL statsmodels scikit-image jupyter
 RUN pip install allensdk
 RUN python setup.py build
 RUN python setup.py install
